@@ -1,4 +1,4 @@
-# LSTM-stock-maket
+# Stock Market Prediction 
 ### __**Intro**__ 
 An accurate future movement of the financial time series data with respect to its high variation and complex non-linear dimensionality is becoming big challenge for many professional analysts and investors.This analysis used the closing price return to predict the future prices. The output of our model is the total return of the next ten days prediction. Once the future price is predicted, we will build up a quantitative trading strategy based on the prediction.
 We have chosen this [**LSTM**](https://en.wikipedia.org/wiki/Long_short-term_memory) model for some certain reasons. First is to overcome the vanishing gradients problem of a traditional recurrent neural network (RNN) model and predict the stock price movement more accurately. Secondly, we want to introduce our predicted value as a continuous value.
